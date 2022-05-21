@@ -238,25 +238,74 @@
         <div
           class="col-lg-3 col-md-5 col-6 d-flex flex-column align-items-center"
         >
-          <div><p class="text-success display-4 fw-bold">1234</p></div>
+          <div>
+            <p class="text-success display-4 fw-bold">
+              <span
+                data-purecounter-start="0"
+                data-purecounter-duration="1"
+                data-purecounter-end="1234"
+                data-purecounter-once="false"
+                data-purecounter-duration="1"
+                class="purecounter"
+              >
+                0
+              </span>
+            </p>
+          </div>
           <div><p>Students</p></div>
         </div>
         <div
           class="col-lg-3 col-md-5 col-6 d-flex flex-column align-items-center"
         >
-          <div><p class="text-success display-4 fw-bold">64</p></div>
+          <div>
+            <p class="text-success display-4 fw-bold">
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="64"
+                data-purecounter-once="false"
+                data-purecounter-duration="1"
+                class="purecounter"
+              >
+                0
+              </span>
+            </p>
+          </div>
           <div><p>Courses</p></div>
         </div>
         <div
           class="col-lg-3 col-md-5 col-6 d-flex flex-column align-items-center"
         >
-          <div><p class="text-success display-4 fw-bold">42</p></div>
-          <div><p>Events</p></div>
+          <div>
+            <p class="text-success display-4 fw-bold">
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="42"
+                data-purecounter-once="false"
+                data-purecounter-duration="1"
+                class="purecounter"
+              >
+                0
+              </span>
+            </p>
+          </div>
+          <p>Events</p>
         </div>
         <div
           class="col-lg-3 col-md-5 col-6 d-flex flex-column align-items-center"
         >
-          <div><p class="text-success display-4 fw-bold">15</p></div>
+          <div>
+            <p class="text-success display-4 fw-bold">
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="15"
+                data-purecounter-once="false"
+                data-purecounter-duration="1"
+                class="purecounter"
+              >
+                0
+              </span>
+            </p>
+          </div>
           <div><p>Trainers</p></div>
         </div>
       </div>
@@ -478,6 +527,26 @@
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/swipper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      // Initialize PureCounter by Default. It also can be stored on variable
+      // new PureCounter();
+      // Initialize PureCounter using custom selector and custom default configuration.
+      // It also can be stored on variable
+      new PureCounter({
+        selector: ".purecounter",
+        start: 0,
+        duration: 0,
+        once: false,
+        repeat: false,
+        decimals: 0,
+        legacy: true,
+        filesizing: false,
+        currency: false,
+        separator: false,
+      });
+    </script>
   </body>
 </html>
