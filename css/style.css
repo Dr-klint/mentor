@@ -1,25 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html,
-body {
-  overflow-x: hidden;
-}
-
-.navbar {
-  position: fixed;
-  width: 98.8%;
-  border-color: #fff;
-  box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
-  z-index: 9999;
-}
-
-.nav__font:hover {
-  color: #5fcf80;
-}
+@import url(contact.css);
 
 .top-hero-section {
   width: 100%;
@@ -111,24 +90,12 @@ body {
   cursor: pointer;
 }
 
-.course__link {
-  text-decoration: none;
-  color: black;
-}
-
-.course__link:hover {
-  color: #5fcf80 !important;
-}
-
 .course__paragraph-small {
   padding-bottom: 1rem;
   border-bottom: 1px solid #eef0ef;
 }
 
 .course__img {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -152,59 +119,4 @@ body {
 
 .people__heading {
   font-size: 1rem;
-}
-.footer {
-  background-color: #f9faf9;
-}
-.footer-links ul {
-  list-style: none;
-  margin-left: -2rem;
-}
-
-.footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  text-align: left;
-  border: 1px solid #e0e5e2;
-  margin-bottom: 1rem;
-}
-
-.footer .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-
-.footer .footer-newsletter form input[type="email"]:focus {
-  outline: none;
-}
-
-.footer .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: -1px;
-  right: -1px;
-  bottom: -1px;
-  border: 0;
-  font-size: 16px;
-  padding: 0 20px 2px 20px;
-  background: #5fcf80;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.footer__bottom {
-  margin-bottom: -3rem;
-  color: #37423b;
-  background-color: #b8bcb966;
-}
-
-.footer__svg {
-  padding: 6px;
-  background: #5fcf80;
-  border-radius: 50%;
 }

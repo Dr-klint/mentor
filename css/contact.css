@@ -1,3 +1,5 @@
+@import url(about.css);
+
 * {
   padding: 0;
   margin: 0;
@@ -77,6 +79,10 @@ body {
 }
 .course__link:hover {
   color: #5fcf80 !important;
+}
+
+.footer {
+  background-color: #f9faf9;
 }
 .footer-links ul {
   list-style: none;
