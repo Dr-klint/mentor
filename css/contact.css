@@ -64,23 +64,12 @@ body {
   font-size: 14px;
 }
 
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
+.contact form input:focus,
+.contact form textarea:focus {
   outline: none !important;
   border: none !important;
 }
 
-.form-control {
-  display: block;
-  width: 100%;
-  padding: 0.375rem 0.75rem;
-  appearance: none;
-  border: 1px solid #ecf9f0;
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
 .course__link {
   text-decoration: none;
   color: black;
